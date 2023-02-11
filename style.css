@@ -220,7 +220,7 @@ header {
   width: 100vw;
   aspect-ratio: 1/0.7;
   padding-top: 15vw;
-  background: url("../img/layout/header.jpg") no-repeat center bottom/cover;
+  background: url("https://github.com/norihani/profile/blob/main/header.jpg?raw=true") no-repeat center bottom/cover;
   z-index: -1;
   transition: top var(--animation) ease-in-out;
 }
