@@ -556,7 +556,7 @@ input.button {
         padding: 10px 0;
     }
 
-@media (max-width:200px) {
+@media (max-width:600px) {
     h2 {
         margin: 20px 0;
         font-size: 1.2em;
