@@ -49,7 +49,7 @@ a:hover {color: #e73a05;text-decoration: none;}
 	top: 0px;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.5) url(../images/bg_dot.png) repeat center center / 10px;	/*背景色。0,0,0は黒のことで0.5は色が50%出た状態。背景画像の読み込み。読み込み幅のサイズ。*/
+	background: rgba(0,0,0,0.5) url(https://github.com/norihani/profile/blob/main/bg_dot.png?raw=true) repeat center center / 10px;	/*背景色。0,0,0は黒のことで0.5は色が50%出た状態。背景画像の読み込み。読み込み幅のサイズ。*/
 }
 
 /*トップページのSVGロゴアニメーション設定
@@ -292,15 +292,15 @@ body.is-fixed #contents {
 }
 /*ボックス内の写真(背景画像)の読み込み。ランチ。*/
 #contents .lunch {
-	background: url(../images/bg_lunch.jpg) no-repeat center center / cover;
+	background: url(https://github.com/norihani/profile/blob/main/bg_lunch.jpg?raw=true) no-repeat center center / cover;
 }
 /*ボックス内の写真(背景画像)の読み込み。コース。*/
 #contents .course {
-	background: url(../images/bg_course.jpg) no-repeat center center / cover;
+	background: url(https://github.com/norihani/profile/blob/main/bg_course.jpg?raw=true) no-repeat center center / cover;
 }
 /*ボックス内の写真(背景画像)の読み込み。テイクアウト。*/
 #contents .takeout {
-	background: url(../images/bg_takeout.jpg) no-repeat center center / cover;
+	background: url(https://github.com/norihani/profile/blob/main/bg_takeout.jpg?raw=true) no-repeat center center / cover;
 }
 
 /*footer（copyrightなどが入った最下部ブロック）
@@ -647,11 +647,11 @@ ul.icon {
 }
 /*三本バーアイコン*/
 #menubar_hdr.close {
-	background: #000 url(../images/icon_menu.png) no-repeat center top/50px;	/*アイコンの読み込み、上半分(top)を表示、幅50px*/
+	background: #000 url(https://github.com/norihani/profile/blob/main/icon_menu.png?raw=true) no-repeat center top/50px;	/*アイコンの読み込み、上半分(top)を表示、幅50px*/
 }
 /*閉じるアイコン*/
 #menubar_hdr.open {
-	background: #000 url(../images/icon_menu.png) no-repeat center bottom/50px;	/*アイコンの読み込み、上半分(bottom)を表示、幅50px*/
+	background: #000 url(https://github.com/norihani/profile/blob/main/icon_menu.png?raw=true) no-repeat center bottom/50px;	/*アイコンの読み込み、上半分(bottom)を表示、幅50px*/
 }
 
 /*fixmenu。メインメニューが画面上部に到達した際の設定
