@@ -10,7 +10,7 @@ $(function(){
 
 
     if (window.matchMedia('(max-width:700px)').matches) {
-        $('#navTrigger').css('display', 'block');
+        $('#navTrigger').css('display', 'none');
     }
 
     $('a[href^="#link_"]').on('click', function(){
