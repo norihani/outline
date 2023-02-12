@@ -638,7 +638,82 @@ input.button {
         transition: .3s;
         z-index: -1;
     }
-
+    /* ナビゲーシ開閉 */
+    .navTrigger {
+        position: relative;
+        margin: 15px 0;
+        text-align: center;
+        transition: .3s;
+    }
+    .navTrigger > div {
+        padding: 5px;
+        background: #ffffff88;
+        border: #c0d8e100 solid 1px;
+        line-height: 1em;
+        text-transform: uppercase;
+        transition: .3s;
+    }
+    .navTrigger::before,
+    .navTrigger::after {
+        content: '';
+        display: block;
+        position: absolute;
+         top: 0;
+         left: 50%;
+        width: 1px;
+        height: 30px;
+        border-left: #444 solid 1px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: .3s;
+    }
+    .view .navTrigger > div {
+        opacity: 0;
+    }
+    .view .navTrigger::before {
+        opacity: 1;
+        transform: rotate(45deg);
+    }
+    .view .navTrigger::after {
+        opacity: 1;
+        transform: rotate(-45deg);
+    }
+    .pageNav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        transform: translate(-100%);
+        transition: .3s;
+    }
+    .pageNav.view::before {
+        transform: translate(0);
+    }
+    .pageNav li {
+        padding: 0;
+        margin: 5px 0;
+        border: none;
+        text-align: center;
+        writing-mode: vertical-rl;
+    }
+    .pageNav li a {
+        padding: 3px;
+    }
+    .pageNav.view ul {
+        transform: translate(0);
+    }
+    .mainHeader {
+        align-items: center;
+        width: 80%;
+        padding: 20px 20px 30px;
+    }
+    .mainHeader::before {
+        top: -40%;
+        left: 40%;
+        width: 120%;
+        min-width: 300px;
+    }
     /* ↓文字装飾の余白調整 */
     :root {
         --space: 10px;
