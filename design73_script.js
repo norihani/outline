@@ -9,7 +9,7 @@ $(function(){
 
    
     
-    if (window.matchMedia('(max-width:800px)').matches) {
+    if (window.matchMedia('(max-width:700px)').matches) {
         $('#navTrigger').css('display', 'block');
     }
 
