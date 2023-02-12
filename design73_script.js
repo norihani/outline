@@ -7,12 +7,7 @@ $(function(){
         $(this).parent().toggleClass('view');
     })
 
-
-
-    if (window.matchMedia('(max-width:700px)').matches) {
-        $('#navTrigger').css('display', 'none');
-    }
-
+    
     $('a[href^="#link_"]').on('click', function(){
         var target = $($(this).attr('href'));
         var point = target.offset().top - 50;
