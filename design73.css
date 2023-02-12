@@ -106,7 +106,7 @@ p {
 }
 .contentsWrap {
     width: 50%;
-     min-width: 200px;
+     min-width: 400px;
      max-width: 900px;
     min-height: 100vh;
     padding: 5vh 0;
