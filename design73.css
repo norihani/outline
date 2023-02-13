@@ -419,7 +419,7 @@ input.button {
     width: 80%;
      max-width: 800px;
     height: 80vh;
-    padding: 50px 50px 70px;
+    padding: 8%;
     background: url('https://github.com/norihani/profile/blob/main/design73_main.png?raw=true') center / cover no-repeat #dde8ea;
     box-sizing: border-box;
 }
