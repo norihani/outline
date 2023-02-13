@@ -93,7 +93,7 @@ p {
 .box {
     position: relative;
     padding: 30px 40px 60px;
-    margin: 100px 0;
+    margin: 75px 0;
     border: #cbd5d8 solid 1px;
 }
 .space {
@@ -109,7 +109,7 @@ p {
      min-width: 400px;
      max-width: 900px;
     min-height: 100vh;
-    padding: 5vh 0;
+    padding: 0vh 0;
     margin: 5vh auto 10vh;
     box-sizing: border-box;
 }
