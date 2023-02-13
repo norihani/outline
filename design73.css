@@ -106,7 +106,7 @@ p {
 }
 .contentsWrap {
     width: 50%;
-     min-width: 425px;
+     min-width: 400px;
      max-width: 900px;
     min-height: 100vh;
     padding: 5vh 0;
@@ -549,14 +549,14 @@ input.button {
         padding: 30px 30px 50px;
     }
     .contentsWrap {
-        min-width: 425px;
+        min-width: 400px;
 
     }
     .pageNav ul {
         padding: 10px 0;
     }
 
-@media (max-width:425px) {
+@media (max-width:400px) {
     h2 {
         margin: 20px 0;
         font-size: 1.2em;
