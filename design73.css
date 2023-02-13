@@ -393,7 +393,7 @@ input.button {
 }
 .headerRight {
     top: 0;
-    left: calc(100% + 1em + var(--space));
+    left: calc(99% + 1em + var(--space));
     text-transform: uppercase;
     transform: rotate(90deg);
     transform-origin: left top;
