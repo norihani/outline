@@ -106,7 +106,7 @@ p {
 }
 .contentsWrap {
     width: 50%;
-     min-width: 625px;
+     min-width: 500px;
      max-width: 900px;
     min-height: 100vh;
     padding: 5vh 0;
@@ -556,7 +556,7 @@ input.button {
         padding: 10px 0;
     }
 
-@media (max-width:625px) {
+@media (max-width:500px) {
     h2 {
         margin: 20px 0;
         font-size: 1.2em;
