@@ -72,13 +72,13 @@ nav ul li a:hover {
 .breadcrumb {
     padding: 1em;
     background-color: #B2F2BB; /* #2EBF75を薄くした色 */
-    color: #2EBF75;
+    color: #0883AF;
     font-size: 0.9em;
     margin: 0;
 }
 
 .breadcrumb a {
-    color: #2EBF75;
+    color: #0883AF;
     text-decoration: none;
 }
 
