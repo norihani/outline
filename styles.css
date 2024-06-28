@@ -35,6 +35,9 @@ nav ul li a {
     padding: 0.5em;
     transition: background-color 0.3s;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav ul li a span {
@@ -57,4 +60,79 @@ nav ul li a:hover {
 
 .hero img {
     width: 200px;
-    border-radius: 5
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.breadcrumb {
+    padding: 1em;
+    background-color: #e0f7fa;
+    color: #0883AF;
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+
+.breadcrumb a {
+    color: #0883AF;
+    text-decoration: none;
+}
+
+.profile {
+    background-color: #f5f5f5;
+    padding: 2em;
+    color: #0883AF;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 2em;
+}
+
+.profile h2 {
+    border-bottom: 2px solid #0883AF;
+    padding-bottom: 0.5em;
+}
+
+.profile p {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact {
+    background-color: #f5f5f5;
+    padding: 2em;
+    color: #0883AF;
+}
+
+.contact h1 {
+    border-bottom: 2px solid #0883AF;
+    padding-bottom: 0.5em;
+}
+
+.contact p {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #D75365;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
