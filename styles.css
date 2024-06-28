@@ -69,7 +69,7 @@ nav ul li a:hover {
     background-color: #e0f7fa;
     color: #0883AF;
     font-size: 0.9em;
-    margin-left: 1em;
+    margin: 0;
 }
 
 .breadcrumb a {
@@ -125,6 +125,11 @@ nav ul li a:hover {
     margin-bottom: 1em;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
 }
 
 footer {
