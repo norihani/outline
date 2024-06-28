@@ -135,3 +135,14 @@ nav ul li a:hover {
 .social-icon {
     width: 30px;
     height: 30px;
+}
+
+footer {
+    background-color: #D75365;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
