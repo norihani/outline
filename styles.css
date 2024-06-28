@@ -34,6 +34,13 @@ nav ul li a {
     font-weight: bold;
     padding: 0.5em;
     transition: background-color 0.3s;
+    position: relative;
+}
+
+nav ul li a span {
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal;
 }
 
 nav ul li a:hover {
@@ -50,58 +57,4 @@ nav ul li a:hover {
 
 .hero img {
     width: 200px;
-    border-radius: 50%;
-    margin-top: 1em;
-}
-
-.breadcrumb {
-    padding: 1em;
-    background-color: #0883AF;
-    color: white;
-    font-size: 0.9em;
-}
-
-.breadcrumb a {
-    color: white;
-    text-decoration: none;
-}
-
-.profile {
-    background-color: #f5f5f5;
-    padding: 2em;
-    color: #0883AF;
-}
-
-.profile-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.profile-header img {
-    width: 150px;
-    border-radius: 50%;
-}
-
-.profile h2 {
-    border-bottom: 2px solid #0883AF;
-    padding-bottom: 0.5em;
-}
-
-.profile p {
-    background-color: white;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-footer {
-    background-color: #D75365;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    border-radius: 5
