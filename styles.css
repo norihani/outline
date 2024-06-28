@@ -59,14 +59,14 @@ nav ul li a:hover {
 }
 
 .hero img {
-    width: 200px;
+    width: 250px; /* サイズを大きくしました */
     border-radius: 50%;
     margin-top: 1em;
 }
 
 .breadcrumb {
     padding: 1em;
-    background-color: #e0f7fa;
+    background-color: #B2F2BB; /* #2EBF75を薄くした色 */
     color: #0883AF;
     font-size: 0.9em;
     margin: 0;
@@ -90,7 +90,7 @@ nav ul li a:hover {
 }
 
 .profile-header img {
-    width: 150px;
+    width: 250px; /* サイズを大きくしました */
     border-radius: 50%;
     margin-right: 2em;
 }
