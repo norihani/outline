@@ -1,16 +1,21 @@
+#2EBF75
+#0883AF
+
+#f5f5f5
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #0883AF;
 }
 
 header {
-    background-color: #0883AF;
+    background-color: #2EBF75;
     padding: 1em 0;
     text-align: center;
-    color: white;
+    color: #f5f5f5;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -47,14 +52,14 @@ nav ul li a span {
 }
 
 nav ul li a:hover {
-    background-color: #2EBF75;
+    background-color: #0883AF;
     border-radius: 5px;
 }
 
 .hero {
     text-align: center;
     padding: 2em 1em;
-    background-color: #2EBF75;
+    background-color: #0883AF;
     color: white;
 }
 
@@ -73,7 +78,7 @@ nav ul li a:hover {
 }
 
 .breadcrumb a {
-    color: #0883AF;
+    color: #2EBF75;
     text-decoration: none;
 }
 
