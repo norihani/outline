@@ -59,8 +59,8 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 2em 1em;
-    background-color: #0883AF;
-    color: white;
+    background-color: white;
+    color: #0883AF;
 }
 
 .hero img {
