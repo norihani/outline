@@ -154,11 +154,13 @@ footer {
     }
     
     nav ul {
-        flex-direction: column; /* ナビゲーションバーを縦に配置 */
+        flex-direction: row; /* ナビゲーションバーを横に配置 */
+        flex-wrap: wrap; /* ナビゲーションバーを折り返す */
     }
     
     nav ul li {
-        margin: 0.5em 0; /* ナビゲーションバーの各項目の余白を調整 */
+        flex: 1 1 100%; /* ナビゲーションバーの各項目を均等に配置 */
+        text-align: center; /* 各項目を中央揃え */
     }
     
     .profile-header {
