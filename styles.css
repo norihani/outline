@@ -153,7 +153,8 @@ footer {
     }
     
     nav ul {
-        flex-direction: row; /* ナビゲーションバーを横に保つ */
+        flex-direction: row; /* ナビゲーションバーを横に配置 */
+        flex-wrap: wrap; /* ナビゲーションバーを折り返す */
     }
     
     nav ul li {
