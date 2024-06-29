@@ -153,14 +153,17 @@ footer {
     }
 
     nav ul {
+        display: flex;
         flex-direction: row; /* ナビゲーションバーを横に保つ */
-        justify-content: space-around; /* 項目の間にスペースを配置 */
+        justify-content: space-between; /* 項目を均等に配置 */
+        padding: 0; /* 余白をリセット */
+        list-style: none; /* リストスタイルを削除 */
     }
 
     nav ul li {
-        flex: none; /* ナビゲーションバーの各項目を固定幅にする */
-        margin: 0; /* 余白をリセット */
+        flex: 1; /* ナビゲーションバーの各項目を均等に配置 */
         text-align: center; /* 各項目を中央揃え */
+        margin: 0; /* 余白をリセット */
     }
 
     .profile-header {
