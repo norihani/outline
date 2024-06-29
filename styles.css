@@ -151,22 +151,23 @@ footer {
     .hero img {
         width: 150px; /* プロフィール写真のサイズを小さく */
     }
-    
+
     nav ul {
-        flex-direction: row; /* ナビゲーションバーを横に配置 */
-        flex-wrap: wrap; /* ナビゲーションバーを折り返す */
+        flex-direction: row; /* ナビゲーションバーを横に保つ */
+        justify-content: space-around; /* 項目の間にスペースを配置 */
     }
-    
+
     nav ul li {
-        flex: 1 1 100%; /* ナビゲーションバーの各項目を均等に配置 */
+        flex: none; /* ナビゲーションバーの各項目を固定幅にする */
+        margin: 0; /* 余白をリセット */
         text-align: center; /* 各項目を中央揃え */
     }
-    
+
     .profile-header {
         flex-direction: column; /* プロフィールヘッダーを縦に配置 */
         align-items: center;
     }
-    
+
     .profile-header img {
         margin-right: 0; /* 右の余白をリセット */
         margin-bottom: 1em; /* 下に余白を追加 */
