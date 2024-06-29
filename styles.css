@@ -109,8 +109,7 @@ nav ul li a:hover {
 }
 
 .info {
-    text-align: center; /* 中央揃えに変更しました */
-    padding-left: 2em; /* 左余白を追加しました */
+    text-align: center; /* 中央揃え */
 }
 
 .contact {
