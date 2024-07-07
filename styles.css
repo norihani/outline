@@ -66,7 +66,7 @@ nav ul li a:hover {
 
 .breadcrumb {
     padding: 1em;
-    background-color: #E6F4EA; /* #2EBF75を薄くした色 */
+    background-color: #E6F4EA; /* #2EBF75の薄くした色 */
     color: #0883AF;
     font-size: 0.9em;
     margin: 0;
@@ -90,7 +90,7 @@ nav ul li a:hover {
 }
 
 .profile-header img {
-    width: 300px; /* サイズを大きくしました */
+    width: 300px; 
     border-radius: 50%;
     margin-right: 2em;
 }
@@ -137,7 +137,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #D75365;
+    background-color: #2EBF75;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -146,24 +146,24 @@ footer {
     width: 100%;
 }
 
-/* メディアクエリでスマホ表示を調整 */
+/* メディアクエリ */
 @media (max-width: 768px) {
     .hero img {
-        width: 150px; /* プロフィール写真のサイズを小さく */
+        width: 150px; 
     }
 
     nav ul {
         display: flex;
         flex-direction: row; /* ナビゲーションバーを横に保つ */
         justify-content: space-between; /* 項目を均等に配置 */
-        padding: 0; /* 余白をリセット */
-        list-style: none; /* リストスタイルを削除 */
+        padding: 0; /* 余白なし */
+        list-style: none; 
     }
 
     nav ul li {
         flex: 1; /* ナビゲーションバーの各項目を均等に配置 */
         text-align: center; /* 各項目を中央揃え */
-        margin: 0; /* 余白をリセット */
+        margin: 0; 
     }
 
     .profile-header {
