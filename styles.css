@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     color: var(--text-100);
+    line-height: 1.6;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -45,9 +47,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    padding: 0.5em;
-    transition: background-color 0.3s;
-    position: relative;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s, transform 0.3s;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,91 +63,45 @@ nav ul li a span {
 nav ul li a:hover {
     background-color: var(--accent-100);
     border-radius: 5px;
+    transform: translateY(-2px);
 }
 
 .hero {
     text-align: center;
-    padding: 2em 1em;
+    padding: 4em 1em;
     background-color: var(--bg-100);
     color: var(--text-200);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.hero:hover {
+    background-color: var(--primary-100);
 }
 
 .hero img {
-    width: 300px; 
+    width: 150px; 
     border-radius: 50%;
     margin-top: 1em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
 }
 
-.breadcrumb {
-    padding: 1em;
-    background-color: var(--primary-100);
-    color: var(--text-200);
-    font-size: 0.9em;
-    margin: 0;
-}
-
-.breadcrumb a {
-    color: var(--text-200);
-    text-decoration: none;
-}
-
-.profile {
-    background-color: var(--bg-100);
-    padding: 2em;
-    color: var(--text-200);
-}
-
-.profile-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.profile-header img {
-    width: 300px; 
-    border-radius: 50%;
-    margin-right: 2em;
-}
-
-.profile h2 {
-    border-bottom: 2px solid var(--accent-200);
-    padding-bottom: 0.5em;
-}
-
-.profile p {
-    background-color: white;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.hero img:hover {
+    transform: scale(1.1);
 }
 
 .info {
     text-align: center; /* 中央揃え */
-}
-
-.contact {
-    background-color: var(--bg-100);
     padding: 2em;
+    background-color: var(--bg-100);
     color: var(--text-200);
-}
-
-.contact h1 {
-    border-bottom: 2px solid var(--accent-200);
-    padding-bottom: 0.5em;
-}
-
-.contact p {
-    background-color: white;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 5px;
+    margin: 2em 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
 }
 
-.social-icon {
-    width: 30px;
-    height: 30px;
+.info:hover {
+    background-color: var(--primary-200);
 }
 
 footer {
@@ -157,12 +112,13 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 }
 
 /* メディアクエリ */
 @media (max-width: 768px) {
     .hero img {
-        width: 150px; 
+        width: 100px; 
     }
 
     nav ul {
@@ -179,13 +135,7 @@ footer {
         margin: 0; 
     }
 
-    .profile-header {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .profile-header img {
-        margin-right: 0; 
-        margin-bottom: 1em; 
+    .info {
+        margin: 1em 0;
     }
 }
