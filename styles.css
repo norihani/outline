@@ -1,13 +1,26 @@
+:root {
+    --primary-100: #d4eaf7;
+    --primary-200: #b6ccd8;
+    --primary-300: #3b3c3d;
+    --accent-100: #71c4ef;
+    --accent-200: #00668c;
+    --text-100: #1d1c1c;
+    --text-200: #313d44;
+    --bg-100: #fffefb;
+    --bg-200: #f5f4f1;
+    --bg-300: #cccbc8;
+}
+
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: var(--bg-200);
     margin: 0;
     padding: 0;
-    color: #0883AF;
+    color: var(--text-100);
 }
 
 header {
-    background-color: #2EBF75;
+    background-color: var(--accent-200);
     padding: 1em 0;
     text-align: center;
     color: white;
@@ -47,15 +60,15 @@ nav ul li a span {
 }
 
 nav ul li a:hover {
-    background-color: #0883AF;
+    background-color: var(--accent-100);
     border-radius: 5px;
 }
 
 .hero {
     text-align: center;
     padding: 2em 1em;
-    background-color: #f5f5f5;
-    color: #0883AF;
+    background-color: var(--bg-100);
+    color: var(--text-200);
 }
 
 .hero img {
@@ -66,21 +79,21 @@ nav ul li a:hover {
 
 .breadcrumb {
     padding: 1em;
-    background-color: #E6F4EA; /* #2EBF75の薄くした色 */
-    color: #0883AF;
+    background-color: var(--primary-100);
+    color: var(--text-200);
     font-size: 0.9em;
     margin: 0;
 }
 
 .breadcrumb a {
-    color: #0883AF;
+    color: var(--text-200);
     text-decoration: none;
 }
 
 .profile {
-    background-color: #f5f5f5;
+    background-color: var(--bg-100);
     padding: 2em;
-    color: #0883AF;
+    color: var(--text-200);
 }
 
 .profile-header {
@@ -96,7 +109,7 @@ nav ul li a:hover {
 }
 
 .profile h2 {
-    border-bottom: 2px solid #0883AF;
+    border-bottom: 2px solid var(--accent-200);
     padding-bottom: 0.5em;
 }
 
@@ -113,13 +126,13 @@ nav ul li a:hover {
 }
 
 .contact {
-    background-color: #f5f5f5;
+    background-color: var(--bg-100);
     padding: 2em;
-    color: #0883AF;
+    color: var(--text-200);
 }
 
 .contact h1 {
-    border-bottom: 2px solid #0883AF;
+    border-bottom: 2px solid var(--accent-200);
     padding-bottom: 0.5em;
 }
 
@@ -137,7 +150,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #2EBF75;
+    background-color: var(--accent-200);
     color: white;
     text-align: center;
     padding: 1em 0;
